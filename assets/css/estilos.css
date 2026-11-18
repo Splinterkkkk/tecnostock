@@ -1,0 +1,27 @@
+/* Estilos propios mínimos: Bootstrap hace el resto del trabajo. */
+
+.login-caja {
+    max-width: 420px;
+    margin: 8vh auto 0;
+}
+
+/* Producto desactivado: fila atenuada */
+tr.fila-inactiva td {
+    color: #6c757d;
+    background-color: #f1f3f5;
+}
+
+/* Producto con stock bajo: se resalta el valor de stock */
+.stock-bajo {
+    font-weight: 700;
+    color: #b02a37;
+}
+
+.tabla-scroll {
+    overflow-x: auto;
+}
+
+/* Campo de solo lectura (código en la edición) */
+input[readonly] {
+    background-color: #e9ecef;
+}
