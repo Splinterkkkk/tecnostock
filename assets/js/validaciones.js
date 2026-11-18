@@ -54,7 +54,7 @@
                 break;
             case 'entero':    // stock: entero no negativo
                 if (!/^\d{1,9}$/.test(valor)) {
-                    return etiqueta + ' debe ser un número entero mayor o igual a 0.';
+                    return etiqueta + ' la cantidad debe ser mayor a 0.';
                 }
                 break;
             case 'cantidad':  // movimiento: entero mayor que 0
